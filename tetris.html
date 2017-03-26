@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="tetris.css">
+    <script src="tetris.js"></script>
+</head>
+<body>
+<div id="bourder" class="bourder-container">
+    <div id="poul" class="box-container">
+    </div>
+    <div id="next" class="box-container">
+    </div>
+    <div id="score" class="box-container">
+    </div>
+    <div id="record" class="box-container">
+    </div>
+    <div id="control" class="control-container box-container">
+        <button onclick="tetris.start()">start</button>
+        <button onclick="tetris.pause()">pause</button>
+        <button onclick="tetris.stop()" >stop</button>
+    </div>
+</div>
+</body>
+</html>

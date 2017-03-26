@@ -1,0 +1,18 @@
+.box-container {
+    position: absolute;
+    background: linear-gradient(to bottom, #FFF0F0 0%, #FFD8D8 100%);
+
+}
+
+.bourder-container {
+    position: absolute;
+    background: #A0D0FF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcRChoZrOg/fQAAAFFJREFUGNNjbN/y6L+4lCwDDPz49oWBg4sHzmcSl5JlePnsMVyAg4uH4ce3LwgFDAwMDPgUMcEEcSliQjYOmyImdDvRFTFhcxiyIiZcrocpAgBTPDB6z7qZjQAAAABJRU5ErkJggg==);
+}
+
+.control-container {
+}
+
+.point {
+    position: absolute;
+    background: linear-gradient(to right, blue 0%, red 100%);
+}	
